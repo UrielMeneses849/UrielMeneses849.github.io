@@ -1,0 +1,151 @@
+body{
+    background-color: #191A19;
+}
+header{
+position:fixed;
+    background-color: #191A19;
+    padding: 1rem 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.Logo{
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+span{
+    color: #D6E4E5;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ac{
+    transition: border-bottom 1s;
+   position: absolute;
+   margin-top: 30px;
+   left: 83%;
+   cursor: pointer;
+}
+#ac:hover{
+    color: #00c8ff;
+    border-bottom: 4px solid #00c8ff;
+    cursor: pointer;   
+}
+#for{
+    text-decoration: none;
+    color: #00c8ff;
+    }
+#col1{
+    width: 375px;
+    height: 500px;
+    left: 23%;
+    top: 150px;
+    position: absolute;  
+}
+#col2{
+    width: 375px;
+    height: 500px;
+    left: 52%;
+    top: 142px;
+    position: relative;
+}
+b{
+    color: #D6E4E5;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: #D6E4E5;
+    margin-left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#contenido2{
+    width: 850px;
+    height: 600px;
+    position: absolute;
+    left: 22%;
+    top: 80%;
+}
+#informacionP{
+height: auto;
+}
+#ci{
+    margin-bottom: 100px;
+}
+#cont3{
+    width:"850px";
+    height:"400px";
+    position: relative;
+    bottom: 130px;
+}
+#Titulos{
+    font-size: 22px;
+}
+#textos{
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: #00c8ff;
+}
+#home{
+    color: #D6E4E5;
+    text-decoration: none;
+}
+#wireframes{
+    position: relative;
+    left: 150px;
+}
+#wireframe3{
+    position: relative;
+    left:280px;
+}
+#wireframes2{
+    position: relative;
+    left: 70px;
+}
+mark{
+    background-color: #D6E4E5;
+}
+#plan{
+    background: #191A19;
+    left: 30%;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s;
+    position: relative;
+    cursor: pointer;
+}
+#plan:hover{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 30%;
+    cursor: pointer;
+}
+li{
+    color:#D6E4E5;
+    line-height: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
+#arrow{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 85%;
+    top: 85%;
+}
+html{
+    scroll-behavior: smooth;
+}

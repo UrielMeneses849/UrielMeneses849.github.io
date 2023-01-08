@@ -1,0 +1,81 @@
+body{
+    background-color: #191A19;
+}
+.Logo{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#home{
+    color: #D6E4E5;
+    text-decoration: none;
+}
+#informacionP{
+    height: auto;
+    }
+ #Col1{
+        width: 990px;
+        height: 700px;
+        left: 18%;
+        top: 150px;
+        position: absolute;  
+        text-align: center;
+}
+b{
+    color: #D6E4E5;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: #D6E4E5;
+    margin-left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#Titulos{
+    font-size: 55px;
+    
+}
+#textos{
+    line-height: 1.5;
+}
+#Google{
+    color: #FED049;
+}
+#Titulos2{
+    font-size: 40px;
+}
+#prototipo{
+    background: #191A19;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s; 
+    position: relative;
+    left: 1%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prototipo:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: 1%;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer{
+    background-color: #282A3A;
+    height: 250px;
+    color: #D6E4E5;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 55%;
+}

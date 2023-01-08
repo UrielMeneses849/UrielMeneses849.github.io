@@ -1,0 +1,331 @@
+body{
+    background-color: #191A19;
+}
+span{
+    color: #D6E4E5;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#for{
+    text-decoration: none;
+    }
+#ac{
+    transition: border-bottom 1s;
+   position: absolute;
+   margin-top: 30px;
+   left: 83%;
+   cursor: pointer;
+}
+#ac:hover{
+    color: #00c8ff;
+    border-bottom: 4px solid #00c8ff;
+    cursor: pointer;
+    
+}
+#Trabajo{
+    background: #191A19;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s; 
+    margin-left: 25px;
+    cursor: pointer;
+}
+#Trabajo:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 25px;
+    cursor: pointer;
+}
+#Titulo{
+    color: #D6E4E5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95px;
+    margin-left: 25px;
+    
+    
+}
+#Google{
+color: #FED049;
+font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: #D6E4E5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    
+}
+.Logo{
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+#Acerca{
+    background: #191A19;
+    margin-left: 25px; 
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s;
+    cursor: pointer;
+    
+}
+#Acerca:hover{
+    margin-left: 25px; 
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+header{
+    position:absolute;
+    background-color: #191A19;
+    padding: 1rem 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#hero{
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    display: block;
+    
+}
+.Info{
+    width: 680px;
+    height: 500px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+#XD{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.imag{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    bottom: 700px;
+    left: 730px;
+}
+#AXD{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 10%;
+    top: 85%;
+    animation-name: XD;
+    animation-duration: 3s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+}
+@keyframes XD{
+    0% {left: 10%; top: 90%;}
+    50% {top: 80%;}
+    100% {left: 10%; top: 90%;}
+}
+#CSS{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 35%;
+    animation-name: CSS;
+    animation-duration: 3s;
+    animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+    animation-iteration-count: infinite;
+}
+@keyframes CSS{
+    0% {left: 35%; top: 75%;}
+    50% {top: 65%;}
+    100% {left: 35%; top: 75%;}
+}
+#HTML{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 60%;
+    animation-name: html;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation-iteration-count: infinite;
+}
+@keyframes html{
+    0% {left: 60%; top: 60%;}
+    50% {top: 50%;}
+    100% {left: 60%; top: 60%;}
+}
+#Figma{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 85%;
+    animation-name: figma;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation-iteration-count: infinite;
+}
+@keyframes figma{
+    0% {left: 85%; top: 49%;}
+    50% {top: 39%;}
+    100% {left: 85%; top: 49%;}
+}
+#hero{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    
+}
+#Principal{
+width: auto;
+height: 900px;
+}
+#MI{
+    background-color: #191A19;
+    width: auto ;
+    height: 750px;
+}
+#Titu{
+    text-align: left;
+    margin-left: 3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 34px;
+}
+#contenido{
+    color: #D6E4E5;
+    font-size: 15px;
+    line-height: 2.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contenido2{
+    width: 1150px;
+    height: 700px;
+    position: relative;
+    background-color: #191A19;
+    top: 10px;
+    left: 150px;
+    border-radius: 10px;
+    color: #D6E4E5;
+}
+a{
+    color: #00c8ff;
+}
+mark{
+    background-color:#00c8ff;
+}
+#mark2{
+    background-color:#A31ACB;
+}
+#textop{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    margin-left: 30px;
+}
+#imagenp{
+    width: 720px;
+    height: 580px;
+    bottom: 85%;
+    left: 33%;
+    position: relative;
+}
+#investigacion{
+    background: #191A19;
+    left: 20%;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s;
+    position: relative;
+    cursor: pointer;
+}
+#investigacion:hover{ 
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20%;
+    cursor: pointer;
+}
+#prototipo{
+    background: #191A19;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s; 
+    position: relative;
+    left: 34%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prototipo:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: 34%;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer{
+    background-color: #282A3A;
+    height: 250px;
+    color: #D6E4E5;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#linkedin{
+     position: relative;
+     top: 6%;
+}
+#gmail{
+    position: relative;
+    top: 5%;
+}
+html{
+    scroll-behavior: smooth;
+}
+#down{
+    text-decoration: none;
+}
+#arrow{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 80%;
+    top: 8%;
+}
