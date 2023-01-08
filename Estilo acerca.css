@@ -1,6 +1,9 @@
 body{
     background-color: #191A19;
 }
+header{
+position: fixed;
+}
 .Logo{
     margin-top: 15px;
     margin-left: 20px;
