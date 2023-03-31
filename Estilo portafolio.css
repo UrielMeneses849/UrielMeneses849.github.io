@@ -359,6 +359,23 @@ mark{
     cursor: pointer;
     text-decoration: none;
 }
+#prototipomo{
+    background: #181818;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s; 
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    cursor: pointer;
+    text-decoration: none;
+}
 #prototipo2{
     background: #181818;
     width: 200px;
@@ -402,6 +419,18 @@ mark{
     position: absolute;
     left: 45%;
     top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prototipomo:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute;
+    left: 45%;
+    top: 20%;
     cursor: pointer;
     text-decoration: none;
 }
