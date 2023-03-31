@@ -121,9 +121,7 @@ header{
     width: 700px;
     height: 600px;
     position: relative;
-/* Modificado */
     bottom: 770px;
-/* Modificado */
     left: 730px;
 }
 #AXD{
@@ -197,9 +195,9 @@ header{
 }
 #Principal{
 width: auto;
-/*Modificado*/
+
 height: 680px;
-/*Modificado*/
+
 }
 #MI{
     background-color: #181818;
@@ -207,12 +205,13 @@ height: 680px;
     height: 750px;
 }
 #Titu{
-    /*Modificado*/
+    
     text-align: center;
     margin-left: 3%;
     font-family:monospace;
     font-size: 50px;
-    /*Modificado*/
+    transition: all 500ms ease-out ;
+    
 }
 #contenido{
     color: #D6E4E5;
@@ -220,20 +219,20 @@ height: 680px;
     line-height: 2.5;
     font-family: 'Courier New', Courier, monospace;
 }
-/*Modificado*/
+
 .contenido2{
     width: 1250px;
-    height: 700px;
+    height: 780px;
     position: relative;
     background-color: #181818;
     top: 10px;
     left: 150px;
-    border-color: #D6E4E5;
-    border-style:dotted;
+    
     border-radius: 15px;
-
+    transition: all 500ms ease-out;
     color: #D6E4E5;
-} /*Modificado*/
+} 
+
 a{
     color: #00c8ff;
 }
@@ -243,14 +242,15 @@ mark{
 #mark2{
     background-color:#A31ACB;
 }
-/*Modificado*/
+
 #textop{
     width: 1200px;
-    height: 700px;
-    position: relative;
+    height: 650px;
+    position:sticky;
+    background-color: #181818;
     margin-left: 40px;
 }
-/*Modificado*/
+
 #imagenp{
     width: 720px;
     height: 580px;
@@ -272,6 +272,44 @@ mark{
     transition: background .7s;
     position: relative;
     cursor: pointer;
+    margin-left: 205px;
+}
+#investigacion2{
+    background: #181818;
+    left: 20%;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s;
+    position: relative;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-bottom: 100px;
+
+}
+#investigacion3{
+    background: #181818;
+    left: 20%;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s;
+    position: relative;
+    cursor: pointer;
+    left:5%;
+    bottom: 70%;
+    
+
 }
 #investigacion:hover{ 
     width: 400px;
@@ -281,6 +319,27 @@ mark{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     left: 20%;
+    cursor: pointer;
+}
+#investigacion2:hover{ 
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20%;
+    cursor: pointer;
+}
+#investigacion3:hover{ 
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background: #00c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left:5%;
+    bottom: 70%;
     cursor: pointer;
 }
 #prototipo{
@@ -294,8 +353,43 @@ mark{
     color: #D6E4E5;
     font-size: large;
     transition: background .7s; 
-    position: relative;
-    left: 34%;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prototipo2{
+    background: #181818;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s; 
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prototipo3{
+    background: #181818;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6E4E5;
+    font-size: large;
+    transition: background .7s; 
+    position: absolute;
+    left: 66%;
+    top: 25%;
     cursor: pointer;
     text-decoration: none;
 }
@@ -305,8 +399,33 @@ mark{
     border-radius: 15px;
     background: #A31ACB;
     font-family: Arial, Helvetica, sans-serif; 
-    position: relative;
-    left: 34%;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prototipo2:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prototipo3:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: #A31ACB;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute;
+    left: 66%;
+    top: 25%;
     cursor: pointer;
     text-decoration: none;
 }
