@@ -23,7 +23,7 @@ Aprender de la comunidad: Mantente actualizado con las últimas tendencias, fram
 
 Recuerda que el desarrollo web es un campo en constante evolución, por lo que estar dispuesto a aprender y mantenerse actualizado es una habilidad esencial para cualquier programador Front-End.
 
-
+Veamos si funciona el GIT
 
 
 
