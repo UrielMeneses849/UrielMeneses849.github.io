@@ -1,0 +1,1019 @@
+html {
+	scroll-behavior: smooth;
+}
+/* Dimensiones de los contenedores de los trabajos*/
+.secciones{
+    width: 90%;
+    margin-left: 5%;
+}
+.enc-esc{
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 20px 11%;
+}
+.enc-movil{
+    width: 200px;
+    height: 450px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 66px 68%;
+}
+.seccion{
+    min-height: 100vh;
+	width: 100%;
+	margin: auto;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    
+}
+ .card1 {
+	background: #dbdbdb;
+	height: 620px;
+    width: 80%;
+    left: 10%;
+    margin-top: -100px;
+	border-radius: 25px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.seccion2{
+    min-height: 100vh;
+	width: 100%;
+	margin: auto;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.card2{
+    background: #B6EAFA;
+	height: 620px;
+    width: 80%;
+    left: 10%;
+    margin-top: -100px;
+	border-radius: 25px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.arkitexm{
+    display: none;
+}
+.hoodies{
+    width: 90%;
+    height: 410px;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 20px 5%;
+}
+.seccion3{
+    min-height: 100vh;
+	width: 100%;
+	margin: auto;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.card3{
+    background: #F3DEBA;
+	height: 620px;
+    width: 80%;
+    left: 10%;
+    margin-top: -100px;
+	border-radius: 25px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* Dimensiones de los contenedores de los trabajos*/
+.titu{
+width: 432px;
+height: 193px;
+left: 25px;
+margin-top: 200px;
+font-family: 'Radio Canada', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 83px;
+text-align:center;
+color: #ECF2FF;
+text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+}
+.habilidades li{
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+    left: 40%;
+    border-radius: 15px;
+    vertical-align: top;
+    margin: 30px 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.habilidades{
+    margin-top: 540px;
+    margin-left: 5%;
+   
+}
+.habilidades img{
+    width: 85px;
+    height: 85px;
+    transition: 0.6s;
+}
+.habilidades img:hover{
+    width: 70px;
+    height: 70px;  
+}
+.boton-sitio{
+    box-sizing: content-box;
+    position: absolute;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-family: 'Radio Canada', sans-serif;
+    background: rgba(24, 24, 24, 0.8);
+    border-radius: 10px;
+    border: none;
+    color: #D9D9D9;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 75%;
+    font-size: 17px;
+    transition: 0.4s;
+    
+}
+
+.boton-sitio:hover{
+    background: rgba(154, 154, 154, 0.8);
+    color: #191a19;
+    
+}
+#menu {
+	background-color: transparent;
+backdrop-filter: blur(20px);
+	height: 85px;
+	padding: 0 10px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    z-index: 999;
+}
+
+#menu a {
+	flex: 1;
+	height: 100%;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fbfbfb;
+	transition: .5s ease-in-out all;
+	font-weight: 500;
+}
+
+#menu a:hover {
+	background: #414345;
+    color: #191a19;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+#menu .indicador {
+	width: 0px;
+	height: 7px;
+	background: #ECF2FF;
+	position: absolute;
+	bottom: 0;
+	transition: .3s ease-out all;
+	/* transform: translate(-500px); */
+}
+a {
+	text-decoration: none;
+    transition: 0.5s;
+}
+.titulosc{
+    
+width: 887px;
+height: 62px;
+margin-left: 39px;
+margin-bottom: 20px;
+margin-top: 10px;
+
+font-family: 'Radio Canada', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 62px;
+text-align: initial;
+letter-spacing: 0.05em;
+
+color: #252525;
+}
+.habilidades2{
+   width: 80vh;
+   margin: 430px 11%;
+    position: absolute;
+   
+}
+.habilidades2 li{
+    text-align: center;
+    display: inline-block;
+    width: 5%;
+    
+    margin: 10px 15px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    
+}
+.habilidades2 img{
+    width: 50px;
+    height: 50px;
+    transition: 0.6s;
+}
+.arkitex{
+    width: 720px;
+    height: 420px;
+    position: absolute;
+    
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    display: block;
+    margin-bottom: 20%;
+}
+
+@media screen and (max-width: 1440px){
+    .titu{
+        width: 432px;
+        height: 193px;
+        left: 25px;
+        margin-top: 200px;
+        margin-bottom: 80px;
+        font-family: 'Radio Canada', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 83px;
+        text-align:center;
+        color: #ECF2FF;
+        text-shadow: 2px 4px 4px rgba(1, 8, 21, 0.5);
+        }
+        .seccion{
+            min-height: 70vh;
+            width: 100%;
+            margin: auto;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .seccion2{
+            min-height: 60vh;
+            width: 100%;
+            margin-top: 10vh;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .seccion3{
+            min-height: 70vh;
+            width: 100%;
+            margin-top: 10vh;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .card3{
+            background: #F3DEBA;
+            height: 620px;
+            width: 80%;
+            left: 10%;
+            margin-top: -100px;
+            border-radius: 25px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        .hoodies{
+            width: 90%;
+            height: 410px;
+            position: absolute;
+            box-sizing: border-box;
+            margin: 40px 5%;
+        }
+}
+
+@media screen and (max-width: 1280px){
+    .titu{
+        width: 432px;
+        height: 193px;
+        left: 25px;
+        margin-top: 200px;
+        margin-bottom: 80px;
+        font-family: 'Radio Canada', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 83px;
+        text-align:center;
+        color: #ECF2FF;
+        text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+        }
+    
+    .secciones{
+        height: 3000px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .seccion{
+        min-height: 50vh;
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .card1 {
+        background: #dbdbdb;
+        height: 620px;
+        width: 80%;
+        left: 10%;
+        margin-top: 10px;
+        border-radius: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: absolute;
+    }
+    .seccion2{
+        min-height: 100vh;
+        width: 100%;
+        margin-top: 10vh;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .card2 {
+        height: 620px;
+        width: 80%;
+        left: 10%;
+        margin-top: 150px;
+        border-radius: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: absolute;
+    }
+    .seccion3{
+        min-height: 87vh;
+        width: 100%;
+        margin-top: 10vh;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+     .card3 {
+        height: 620px;
+        width: 80%;
+        left: 10%;
+        margin-top: -10px;
+        border-radius: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: absolute;
+    }
+    .enc-esc{
+        width: 590px;
+        height: 390px;
+        border-radius: 20px;
+        position: absolute;
+        
+        box-sizing: border-box;
+        margin-left: 10%;
+        
+        margin-top: 20px;
+    }
+    .enc-movil{
+        width: 150px;
+        height: 320px;
+        border-radius: 20px;
+        margin-left: 610px;
+        margin-top: 150px;
+        position: absolute;
+    }   
+    .boton-sitio{
+        box-sizing: content-box;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        font-family: 'Radio Canada', sans-serif;
+        background: rgba(24, 24, 24, 0.8);
+        border-radius: 10px;
+        border: none;
+        color: #D9D9D9;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 75%;
+        margin-top: 40px;
+        font-size: 17px;
+        transition: 0.3s;
+        
+    }
+    .habilidades2{
+        width: 80vh;
+         margin-left: 10%;
+         margin-top: 450px;
+         position: absolute;
+        
+     }
+     .habilidades2 li{
+         text-align: center;
+         display: inline-block;
+         width: 5%;
+         
+         margin: 10px 15px;
+         padding: 10px 30px;
+         box-sizing: border-box;
+         
+     }
+     .habilidades2 img{
+         width: 50px;
+         height: 50px;
+         transition: 0.6s;
+     }
+     .arkitex{
+        width: 600px;
+        height: 350px;
+        position: absolute;
+        box-sizing: border-box;
+        margin: 40px 13%;
+        display: block;
+                    }
+        .arkitexm{
+                      display: none; 
+                    }
+        .hoodies{
+                        width: 90%;
+                        height: 410px;
+                        position: absolute;
+                        box-sizing: border-box;
+                        margin: 40px 5%;
+                    }
+}
+
+@media screen and (max-width: 1024px){
+    .titu{
+        width: 432px;
+        height: 193px;
+        left: 25px;
+        margin-top: 200px;
+        margin-bottom: 90px;
+        font-family: 'Radio Canada', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 83px;
+        text-align:center;
+        color: #ECF2FF;
+        text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+        }
+    #menu {
+        background-color: transparent;
+    backdrop-filter: blur(14px);
+        height: 85px;
+        padding: 0 10px;
+        display: flex;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 20px;
+        border-radius: 8px;
+        
+    }
+    #menu .indicador {
+        width: 0px;
+        height: 7px;
+        background: #ECF2FF;
+        position: absolute;
+        bottom: 0;
+        transition: .3s ease-out all;
+    }
+    .seccion{
+        min-height: 40vh;
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .secciones{
+        height: 3000px;
+        width: 90%;
+        margin-left: 5%;
+    }
+     .card1 {
+        background: #dbdbdb;
+        height: 620px;
+        width: 80%;
+        left: 10%;
+        margin-top: 10px;
+        border-radius: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: absolute;
+    }
+    .seccion2{
+        min-height: 50vh;
+        width: 100%;
+        margin:auto;
+        margin-top: -1vh;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .card2 {
+        height: 620px;
+        width: 80%;
+        left: 10%;
+        margin-top: 90px;
+        border-radius: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: absolute;
+    }
+    .seccion3{
+        min-height: 50vh;
+        width: 100%;
+        margin-top: 1vh;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .card3 {
+        height: 620px;
+        width: 80%;
+        left: 10%;
+        margin-top: -10px;
+        border-radius: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: absolute;
+    }
+    .enc-esc{
+        width: 550px;
+        height: 350px;
+        border-radius: 20px;
+        position: absolute;
+        box-sizing: border-box;
+        margin-left: 10%;
+        margin-top: 60px;
+    }
+    .enc-movil{
+        width: 120px;
+        height: 280px;
+        border-radius: 20px;
+        margin-left: 590px;
+        margin-top: 150px;
+        position: absolute;
+    }   
+    .boton-sitio{
+        box-sizing: content-box;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        font-family: 'Radio Canada', sans-serif;
+        background: rgba(24, 24, 24, 0.8);
+        border-radius: 10px;
+        border: none;
+        color: #D9D9D9;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 75%;
+        margin-top: 40px;
+        font-size: 17px;
+        transition: 0.3s;
+        
+    }
+    .habilidades2{
+        display: none;
+         }
+    .hoodies{
+            width: 90%;
+            height: 410px;
+            position: absolute;
+            box-sizing: border-box;
+            margin: 20px 5%;
+        }
+        .arkitex{
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 180px;
+            display: block;
+            margin-bottom: 10%;
+            
+        }
+}
+    
+@media screen and (max-width: 912px){
+        .titu{   
+        width: 50%;
+        height: 153px;
+        margin-left: 20px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-family: 'Radio Canada', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 93px;
+        text-align:start;
+        color: #ECF2FF;
+        text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+        }
+        .habilidades li{
+            text-align: center;
+            display: inline-block;
+            width: 10%;
+            left: 10%;
+            border-radius: 15px;
+            vertical-align: top;
+            margin: 0 1.5%;
+            padding: 30px 20px;
+            box-sizing: border-box; 
+        }
+        .habilidades{
+            margin-top: 500px;
+            margin-left: 1%;
+            
+        }
+        .habilidades img{
+            width: 65px;
+            height: 65px;
+            transition: 0s;
+        }
+        #menu{
+            background-color: transparent;
+             backdrop-filter: blur(14px);
+	        height: 80px;
+	        padding: 0 10px;
+	        display: flex;
+	        position: sticky;
+	        top: 0;
+	        overflow: hidden;
+            font-family: 'Radio Canada', sans-serif;
+            font-size: 17px;
+            border-radius: 8px;
+        }
+        
+        .card1 {
+                background: #dbdbdb;
+                height: 500px;
+                width: 80%;
+                left: 10%;
+                margin-top: 10px;
+                border-radius: 25px;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                position: absolute;
+            }
+            .secciones{
+                height: 3000px;
+                width: 90%;
+                margin-left: 5%;
+            }
+        .seccion{
+            min-height: 50vh;
+            max-width: 800px;
+            width: 90%;
+            height: 300px;
+            margin: auto;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .seccion2{
+            min-height: 50vh;
+            width: 100%;
+            margin-top: 1vh;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+         .card2 {
+            height: 620px;
+            width: 80%;
+            left: 10%;
+            margin-top: 150px;
+            border-radius: 25px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            position: absolute;
+        }
+        .seccion3{
+            min-height: 87vh;
+            width: 100%;
+            margin-top: 1vh;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+         .card3 {
+            height: 620px;
+            width: 80%;
+            left: 10%;
+            margin-top: 20px;
+            border-radius: 25px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            position: absolute;
+        }
+        .titulosc {
+    
+            width: 80%;
+            height: 62px;
+            margin-left: 5%;
+            margin-top: 18px;
+            
+            font-family: 'Radio Canada', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 32px;
+            text-align: initial;
+            letter-spacing: 0.05em;
+            
+            color: #252525;
+            }
+        .enc-esc{
+                width: 450px;
+                height: 290px;
+                border-radius: 20px;
+                position: absolute;
+                box-sizing: border-box;
+                margin-left: 5%;
+                margin-top: 5px;
+            }
+        .enc-movil{
+                width: 120px;
+                height: 280px;
+                border-radius: 20px;
+                margin-left: 78%;
+                margin-top: 10px;
+                position: absolute;
+            }   
+        .boton-sitio{
+                box-sizing: content-box;
+                position: absolute;
+                float: left;
+                cursor: pointer;
+                width: 130px;
+                height: 40px;
+                font-family: 'Radio Canada', sans-serif;
+                background: rgba(24, 24, 24, 0.8);
+                border-radius: 10px;
+                border: none;
+                color: #D9D9D9;
+                text-decoration: none;
+                text-align: center;
+                margin-left: 75%;
+                margin-top: 40px;
+                font-size: 17px;
+                transition: 0.3s;
+                
+            }    
+        .habilidades2{
+            display: none;
+             }
+             .arkitex{
+                width: 600px;
+                height: 350px;
+                position: absolute;
+                box-sizing: border-box;
+                margin-top: 200px;
+                display: block;
+                            }
+                .arkitexm{
+                              display: none; 
+                            }
+                .hoodies{
+                                width: 90%;
+                                height: 310px;
+                                position: absolute;
+                                box-sizing: border-box;
+                                margin: 60px 5%;
+                            }
+}
+
+@media screen and (max-width: 640px){
+        .habilidades li{
+            text-align: center;
+            display: inline-block;
+            width: 25%;
+            left: 10%;
+            border-radius: 15px;
+            vertical-align: top;
+            margin: 10px 1.5%;
+            padding: 5px 35px;
+            box-sizing: border-box;
+        }
+        .habilidades{
+            margin-top: 340px;
+            margin-left: 1%;
+            position: absolute;
+        }
+        .habilidades img{
+            width: 40px;
+            height: 40px;
+            transition: 0s;
+        }
+        #menu{
+            display: none;
+        }
+        .titu{
+            position: relative;
+            width: 70%;
+            height: 123px;
+            margin-left: 20px;
+            padding-bottom: 40px;
+            top: 120px;
+            font-family: 'Radio Canada', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 35px;
+            text-align:start;
+            color: #ECF2FF;
+            text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+            }
+        .titulosc{
+                
+                width: 90%;
+                height: 62px;
+                margin-left: 5%;
+                margin-top: 18px;
+                
+                font-family: 'Radio Canada', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 32px;
+                text-align: initial;
+                letter-spacing: 0.05em;
+                
+                color: #252525;
+                }
+        .enc-esc{
+                    display: none;
+                }
+        .enc-movil{
+                    width: 160px;
+                    height: 360px;
+                    border-radius: 20px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 60px;
+                    position: relative;
+                }   
+        .boton-sitio{
+                    box-sizing: content-box;
+                    position: absolute;
+                    cursor: pointer;
+                    display: inline-block;
+                    width: 110px;
+                    height: 35px;
+                    
+                    margin-left: 33%;
+                    margin-right: 33%;
+                    font-family: 'Radio Canada', sans-serif;
+                    background: rgba(24, 24, 24, 0.8);
+                    border-radius: 10px;
+                    border: none;
+                    color: #D9D9D9;
+                    text-decoration: none;
+                    
+                    margin-top: 70px;
+                    font-size: 15px;
+                    transition: 0.3s;
+                    
+                }   
+        .habilidades2{
+                    display: none;
+                     } 
+        .secciones{
+                        height: 3000px;
+                        width: 90%;
+                        margin-left: 5%;
+                    }
+        .seccion{
+                        min-height: 70vh;
+                        width: 100%;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+        .card1 {
+                        background: #dbdbdb;
+                        height: 550px;
+                        width: 80%;
+                        left: 10%;
+                        margin-top: 10px;
+                        border-radius: 25px;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        position: absolute;
+                    }
+        .seccion2{
+                        min-height: 70vh;
+                        width: 100%;
+                        margin:auto;
+                        padding-top: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+        .card2 {
+                        height: 550px;
+                        width: 80%;
+                        left: 10%;
+                        display: block;
+                        margin-top: 10px;
+                        border-radius: 25px;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        
+                    }
+        .arkitex{
+        display: none;
+                    }
+        .arkitexm{
+                        position: relative;
+                        width: 280px;
+                        height: 400px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 20px;
+                    }
+        .seccion3{
+                        min-height: 70vh;
+                        width: 100%;
+                        margin:auto;
+                        padding-top: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        
+                    }
+        .card3 {
+                        height: 550px;
+                        width: 80%;
+                        left: 10%;
+                        margin-top: 10px;
+                        border-radius: 25px;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        position: absolute;
+                    }
+        .hoodies{
+                        width: 90%;
+                        height: 180px;
+                        position: absolute;
+                        box-sizing: border-box;
+                        margin: 60px 5%;
+                    }
+}
+
