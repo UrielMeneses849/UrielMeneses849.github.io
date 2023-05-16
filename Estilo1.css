@@ -124,8 +124,14 @@
         margin-top: 40vh;
         display: block;
         }
-
 /* Fin Card 2 */
+        .card3{
+            height: 500px;
+            width: 85%;
+            /* Queda pendiente de ajuste */
+            margin-top: 4vh;
+            display: block;
+        }
 }
   
   @media screen and (max-width: 912px){
@@ -337,10 +343,11 @@
     height: 500px;
     width: 85%;
     /* Queda pendiente de ajuste */
-    margin-top: 50vh;
+    margin-top: 52vh;
     display: block;
 }
 /* Fin Card 2 */
+
 }
 
 @media screen and (max-width: 640px){
@@ -590,16 +597,33 @@ margin-top: 40px;
     height: 500px;
     width: 85%;
     /* Queda pendiente de ajuste */
-    margin-top: 69vh;
+    margin-top: 70vh;
    
 }
 /* Fin Card 2 */
+.card3{
+    height: 500px;
+    width: 85%;
+}
+}
 
+@media screen and (max-height: 1024px){
+    .card2{
+        margin-top: 62vh;
+    }
+}
+@media screen and (max-height: 915px){
+    .card2{
+        margin-top: 72vh;
+    }
 }
 @media screen and (max-height: 670px){
 .card2{
     margin-top: 85vh;
 }
 }
+/* Configuraciones por el largo de la pantalla */
+
+
 
 
