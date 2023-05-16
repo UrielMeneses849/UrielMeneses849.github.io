@@ -222,6 +222,14 @@ a {
         transition: 0.4s;
         
     }
+.desktop{
+        width:19px;
+        height: 19px;
+        display: table-cell;
+        vertical-align:middle;
+        display: inline-block;
+    }
+
 .secciones{
     
     display: flex;
@@ -262,6 +270,54 @@ border-radius: 20px;
 .card:nth-child(3){
     background-color: #B6EAFA;
 }
+.arkitex{
+    width: 600px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.arkitexm{
+    width: 280px;
+    height: 400px;
+    margin-right: 50PX;
+;
+}
+.boton-a{
+    position: absolute;  
+    display: inline;
+    left: 330px;
+      margin-top:410px;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        font-family: 'Radio Canada', sans-serif;
+        background: rgba(24, 24, 24, 0.8);
+        border-radius: 10px;
+        border: none;
+        color: #D9D9D9;
+        text-decoration: none;
+        text-align: center;
+        font-size: 17px;
+        transition: 0.4s;
+    }
+    .boton-b{
+        position: absolute;  
+        display: inline;
+        right: 20%;
+          margin-top:410px;
+            cursor: pointer;
+            width: 150px;
+            height: 50px;
+            font-family: 'Radio Canada', sans-serif;
+            background: rgba(24, 24, 24, 0.8);
+            border-radius: 10px;
+            border: none;
+            color: #D9D9D9;
+            text-decoration: none;
+            text-align: center;
+            font-size: 17px;
+            transition: 0.4s;
+        }
+    
 .card:nth-child(4){
     background-color: #F3DEBA;
 }

@@ -80,7 +80,28 @@
                 
                 margin: 6px 6px;
             }
-
+    .arkitex{
+                width: 450px;
+                height: 300px;
+                margin-bottom: 30px;
+                
+                
+            }
+    .arkitexm{
+                width: 220px;
+                height: 350px;
+                border-radius: 20px;
+                
+                margin: 6px 6px;
+            } 
+    .boton-a{       
+    left: 200px;
+    margin-top:380px;
+        }
+    .boton-b{
+        right: 100px;
+        margin-top:380px;           
+    }
     .habilidades2{
             display: none;
              }
@@ -243,13 +264,35 @@
                 right: 0;
                 margin-top: 30px;
             }
+.arkitex{
+   
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 270px;
+    margin-left: 10px ;
+    margin-top: 40px;
+            }
+.arkitexm{
+    width: 180px;
+    height: 330px;
+    position: absolute;
+    margin-right: 10px;
+    right: 0;
+    margin-top: 10px;
+            }  
     .titulosc {
-
-        text-align: start;
-        font-size: 25px;
+text-align: start;
+font-size: 25px;
 
         }
-   
+.boton-a{       
+            left: 150px;
+            margin-top:380px;
+        }
+   .titulosc:nth-child(2){
+    font-size: 24px;
+   }
     .habilidades2{
         display: none;
          }
@@ -266,7 +309,7 @@
         height: 110px;
         left: 2.5%;
         right: 10%;
-        top: 80px;
+        top: 60px;
         line-height: 70px;
         font-family: 'Macondo';
         font-size: 50px;
@@ -286,7 +329,7 @@
     }
 
     .abrir-menu {
-        right: 25px;
+        right: 15px;
         top: 20px;
         z-index: 999;
     }
@@ -361,7 +404,7 @@
 .presentacion{    
             height: 800px;
             width: 90%;
-            margin-top: 5%;
+            margin-top: 5px;
             position: relative;
                 display: block;
                 margin-left: auto;
@@ -380,7 +423,7 @@
             position:relative;
             width: 240px;
             left: 20%;
-            top: 160px; 
+            top: 130px; 
             list-style-type:circle;
         }
 .skills li{
@@ -410,7 +453,7 @@
     box-sizing: border-box;
 }
 .habilidades{
-    margin-top: 340px;
+    margin-top: 300px;
     margin-left: 1%;
     position: absolute;
 }
@@ -422,16 +465,6 @@
 #menu{
     display: none;
 }
-.titulosc{
-   
-        width: 90%;
-        height: 62px;
-        margin-left: 5%;
-        margin-top: 18px;
-        font-weight: 600;
-        font-size: 20px;
-        text-align: center;
-        }
 .boton-sitio{
             box-sizing: border-box;
             position: absolute;
@@ -457,6 +490,7 @@
 .secciones{
     margin-top: -120px;
             }
+
  .titu{
     width: 80vw;
     height: 50px;
@@ -466,7 +500,26 @@
     align-items: center;
 font-size: 45px;   
 margin-top: 65px;  
-                }
+    }
+    .titulosc{
+        width: 90%;
+        height: 62px;
+        margin-left: 5%;
+        margin-top: 18px;
+        font-weight: 600;
+        text-align: center;
+        }
+    .titulosc:nth-child(2){
+        font-size: 17px;
+    }
+.boton-a{
+    display: none;
+}
+.boton-b{
+    left: 20vw;
+    margin-right: 30%;
+    margin-top: 420px;        
+}
 /* Inicio de Card 1 */
 .enc-esc{
                 display: none;
@@ -481,6 +534,19 @@ margin-top: 65px;
                 margin-right: auto;
                 margin-top: 80px;
             }
+.arkitex{
+    display: none;
+}
+.arkitexm{
+    width: 240px;
+    height: 395px;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
         }
 
 
