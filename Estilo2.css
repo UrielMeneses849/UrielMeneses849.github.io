@@ -143,42 +143,28 @@ body{
         transition: .3s ease-out all;
         /* transform: translate(-500px); */
     }
-/* Dimensiones de los contenedores de los trabajos*/
-    .secciones{
-        width: 90%;
-        margin-left: 5%;
-        display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;   
-    margin-top: 200px;
-    }
-    .titu{
+    .habilidades2{
+        width: 80vh;
+        margin: 430px 11%;
+         position: absolute;
         
-        width: 432px;
-        height: 193px;
-        left: 25px;
-        padding-top: 90px;
-        font-family: 'Radio Canada', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 70px;
-        line-height: 83px;
-        text-align:center;
-        color: #ECF2FF;
-        text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
-        }
-/* Card 1 contenido encriptador */
-
- .card1 {
-	background: #dbdbdb;
-	height: 620px;
-    width: 80%;
-    left: 10%;
-    margin-top: -100px;
-	border-radius: 25px;
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
+     }
+     .habilidades2 li{
+         text-align: center;
+         display: inline-block;
+         width: 5%;
+         
+         margin: 10px 15px;
+         padding: 10px 30px;
+         box-sizing: border-box;
+         
+     }
+     .habilidades2 img{
+         width: 50px;
+         height: 50px;
+         transition: 0.6s;
+     }
+/* Dimensiones de los contenedores de los trabajos*/
 .enc-esc{
     position: absolute;
     width: 650px;
@@ -239,6 +225,42 @@ letter-spacing: 0.05em;
 
 color: #252525;
 }
+.secciones{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;   
+margin-top: 200px;
+}
+.titu{
+    
+    width: 432px;
+    height: 193px;
+    left: 25px;
+    padding-top: 90px;
+    font-family: 'Radio Canada', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 83px;
+    text-align:center;
+    color: #ECF2FF;
+    text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+    }
+/* Card 1 contenido encriptador */
+
+.card1 {
+background: #dbdbdb;
+height: 620px;
+width: 80%;
+left: 10%;
+margin-top: -100px;
+border-radius: 25px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 /* Fin Card 1 */
 
 /* Inicio Card 2 */
@@ -247,34 +269,23 @@ color: #252525;
 	height: 620px;
     width: 80%;
     left: 10%;
-    margin-top: -100px;
+    margin-top: 10vh;
 	border-radius: 25px;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 /* Fin Card 2 */
-.habilidades2{
-   width: 80vh;
-   margin: 430px 11%;
-    position: absolute;
-   
-}
-.habilidades2 li{
-    text-align: center;
-    display: inline-block;
-    width: 5%;
-    
-    margin: 10px 15px;
-    padding: 10px 30px;
-    box-sizing: border-box;
-    
-}
-.habilidades2 img{
-    width: 50px;
-    height: 50px;
-    transition: 0.6s;
-}
-/* Card 2 contenido encriptador */
 
+/*Inicio Card 3  */
+.card3 {
+	background: #F3DEBA;
+	height: 620px;
+    width: 80%;
+    left: 10%;
+    margin-top: 10vh;
+	border-radius: 25px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* Fin Card 3 */
 
 
 
