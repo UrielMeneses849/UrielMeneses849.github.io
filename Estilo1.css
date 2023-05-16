@@ -507,11 +507,13 @@
             }
  .titu{
     width: 80vw;
-    height: 70px;
+    height: 50px;
     padding-top: 60px;
-    text-align: start; 
+    text-align: center; 
+    line-height: 10px;
+    align-items: center;
 font-size: 45px;   
-margin-top: 40px;  
+margin-top: 65px;  
                 }
 /* Inicio de Card 1 */
 .enc-esc{
