@@ -53,15 +53,7 @@
         display: inline-block;
         }
     /* Div de todas las cards de trabajos */
-    .secciones{
-        height: auto;
-            width: 90%;
-            margin-left: 5%;
-            display: flex;
-	        flex-direction: column;
-	        align-items: center;
-	        justify-content: space-between; 
-        }
+
     /* Div de todas las cards de trabajos */
     .titu{
             width: 332px;
@@ -71,13 +63,6 @@
             font-size: 60px;
             } 
         /* Inicio de Card 1 */  
-    .card1 {
-            height: 500px;
-             width: 80%;
-            margin-top: 200px;
-             position: absolute;
-             display: block;
-            }
     .enc-esc{
                 position: absolute;
                 width: 450px;
@@ -115,23 +100,7 @@
     .habilidades2{
             display: none;
              }
-        /* Inicio de Card 2 */
-        
-    .card2 {
-        height: 500px;
-        width: 85%;
-        /* Queda pendiente de ajuste */
-        margin-top: 40vh;
-        display: block;
-        }
-/* Fin Card 2 */
-        .card3{
-            height: 500px;
-            width: 85%;
-            /* Queda pendiente de ajuste */
-            margin-top: 4vh;
-            display: block;
-        }
+
 }
   
   @media screen and (max-width: 912px){
@@ -263,12 +232,7 @@
 }
 /* Secciones de los card de trabajos */
 .secciones{
-    height: auto;
-    width: 90%;
-    display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
+    margin-top: 80px;
 }
 /* Secciones de los card de trabajos */
 .titu{   
@@ -277,14 +241,6 @@
     padding-top: 90px;
     position: inherit; 
     }
-    .card1 {   
-    height: 500px;
-    width: 80%;
-    margin-top: 200px;
-    position: absolute;
-    display: block;
-        }
-/* Inicio de Card 1 */
 .enc-esc{
                 display: none;
             }
@@ -339,13 +295,7 @@
         display: none;
          }
 /* Inicio Card2 */
-.card2{
-    height: 500px;
-    width: 85%;
-    /* Queda pendiente de ajuste */
-    margin-top: 52vh;
-    display: block;
-}
+
 /* Fin Card 2 */
 
 }
@@ -553,13 +503,6 @@
 
 /* Inicio de las secciones de trabajos */
 .secciones{
-    height: auto;
-    width: 90%;
-    display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-    position: relative;
     margin-top: -120px;
             }
  .titu{
@@ -571,12 +514,6 @@ font-size: 45px;
 margin-top: 40px;  
                 }
 /* Inicio de Card 1 */
-.card1 {
-    height: 500px;
-    width: 80%;
-    margin-top: 200px;
-    position: absolute;
-            }
 .enc-esc{
                 display: none;
             }
@@ -590,38 +527,9 @@ margin-top: 40px;
                 margin-right: auto;
                 margin-top: 10px;
             }
-/* Fin Card 1 */
+        }
 
-/* Inicio Card2 */
-.card2{
-    height: 500px;
-    width: 85%;
-    /* Queda pendiente de ajuste */
-    margin-top: 70vh;
-   
-}
-/* Fin Card 2 */
-.card3{
-    height: 500px;
-    width: 85%;
-}
-}
 
-@media screen and (max-height: 1024px){
-    .card2{
-        margin-top: 62vh;
-    }
-}
-@media screen and (max-height: 915px){
-    .card2{
-        margin-top: 72vh;
-    }
-}
-@media screen and (max-height: 670px){
-.card2{
-    margin-top: 85vh;
-}
-}
 /* Configuraciones por el largo de la pantalla */
 
 

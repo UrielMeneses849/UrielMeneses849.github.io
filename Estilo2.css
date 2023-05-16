@@ -226,65 +226,55 @@ letter-spacing: 0.05em;
 color: #252525;
 }
 .secciones{
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
+    
     display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;   
-margin-top: 200px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
 }
 .titu{
-    
     width: 432px;
-    height: 193px;
+    height: 83px;
     left: 25px;
     padding-top: 90px;
     font-family: 'Radio Canada', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
-    line-height: 83px;
+    line-height: 103px;
+    justify-content: end;
     text-align:center;
     color: #ECF2FF;
     text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
     }
 /* Card 1 contenido encriptador */
 
-.card1 {
-background: #dbdbdb;
-height: 620px;
+.card{
+
+background-color: white;
+color: #191a19;
 width: 80%;
-left: 10%;
-margin-top: -100px;
-border-radius: 25px;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+height: 620px;
+text-align: center;
+margin: 20px;
+border-radius: 20px;
 }
-/* Fin Card 1 */
+.card:nth-child(2){
+    background-color: #dbdbdb;
+}
+.card:nth-child(3){
+    background-color: #B6EAFA;
+}
+.card:nth-child(4){
+    background-color: #F3DEBA;
+}
+.card:nth-child(5){
+    background-color: #DBDFAA;
+}
 
-/* Inicio Card 2 */
- .card2 {
-	background: #B6EAFA;
-	height: 620px;
-    width: 80%;
-    left: 10%;
-    margin-top: 10vh;
-	border-radius: 25px;
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-/* Fin Card 2 */
-
-/*Inicio Card 3  */
-.card3 {
-	background: #F3DEBA;
-	height: 620px;
-    width: 80%;
-    left: 10%;
-    margin-top: 10vh;
-	border-radius: 25px;
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 /* Fin Card 3 */
 
 
