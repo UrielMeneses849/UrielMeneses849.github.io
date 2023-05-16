@@ -147,12 +147,18 @@ body{
     .secciones{
         width: 90%;
         margin-left: 5%;
+        display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;   
+    margin-top: 200px;
     }
     .titu{
+        
         width: 432px;
         height: 193px;
         left: 25px;
-        margin-top: 200px;
+        padding-top: 90px;
         font-family: 'Radio Canada', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -163,17 +169,7 @@ body{
         text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
         }
 /* Card 1 contenido encriptador */
-.seccion{
-    min-height: 100vh;
-	width: 100%;
-	margin: auto;
-	padding-top: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-    
-}
+
  .card1 {
 	background: #dbdbdb;
 	height: 620px;
@@ -198,7 +194,6 @@ body{
     position: absolute;
     margin: 66px 68%;
 }
-
 .boton-sitio{
     box-sizing: content-box;
     position: absolute;
@@ -217,7 +212,6 @@ body{
     transition: 0.4s;
     
 }
-
 .boton-sitio:hover{
     background: rgba(154, 154, 154, 0.8);
     color: #191a19;
@@ -245,6 +239,19 @@ letter-spacing: 0.05em;
 
 color: #252525;
 }
+/* Fin Card 1 */
+
+/* Inicio Card 2 */
+ .card2 {
+	background: #B6EAFA;
+	height: 620px;
+    width: 80%;
+    left: 10%;
+    margin-top: -100px;
+	border-radius: 25px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* Fin Card 2 */
 .habilidades2{
    width: 80vh;
    margin: 430px 11%;
