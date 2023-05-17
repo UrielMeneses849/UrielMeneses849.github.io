@@ -81,9 +81,10 @@
                 margin: 6px 6px;
             }
     .arkitex{
-                width: 450px;
+                width: 420px;
                 height: 300px;
-                margin-bottom: 30px;
+                display: block;
+                margin: 30px auto 100px;
                 
                 
             }
@@ -265,24 +266,20 @@
                 margin-top: 30px;
             }
 .arkitex{
-   
-    position: absolute;
-    left: 0;
+    display: block;
     width: 400px;
-    height: 270px;
-    margin-left: 10px ;
-    margin-top: 40px;
+    height: 250px;
+    margin: 30px auto 100px;
             }
 .arkitexm{
+    display: block;
     width: 180px;
-    height: 330px;
-    position: absolute;
-    margin-right: 10px;
-    right: 0;
-    margin-top: 10px;
+    height: 300px;
+    margin: 0 auto 100px;
             }  
-    .titulosc {
+.titulosc {
 text-align: start;
+margin-left: 30px;
 font-size: 25px;
 
         }
@@ -290,16 +287,16 @@ font-size: 25px;
             left: 150px;
             margin-top:380px;
         }
-   .titulosc:nth-child(2){
+.titulosc:nth-child(2){
     font-size: 24px;
    }
-    .habilidades2{
+.habilidades2{
         display: none;
          }
-/* Inicio Card2 */
-
-/* Fin Card 2 */
-
+.hoodies{
+    width: 500px;
+    height: 300px;
+}
 }
 
 @media screen and (max-width: 640px){
@@ -547,7 +544,33 @@ margin-top: 65px;
     margin-right: auto;
     margin-top: 50px;
 }
-        }
+.hoodies{
+    width: 90%;
+    height: 150px;
+    margin-top: 150px;
+}
+.boton-c{
+margin-top: 50px;
+}
+.card:nth-child(5){
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/* Ultimos Cards */
+.card1{
+    background-color: #DBDFAA;
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+}
+.card1:nth-child(2){
+    background: #ECC9EE;
+    width: 100%;
+    margin: 20px auto 0;
+}
+}
 
 
 /* Configuraciones por el largo de la pantalla */

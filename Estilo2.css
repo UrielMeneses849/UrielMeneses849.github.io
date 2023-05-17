@@ -189,18 +189,17 @@ a {
 }
 /* Configuracion de las cards */
 .titulosc{
-    width: auto;
+    width: 100%;
     height: 62px;
-    margin-left: 39px;
     margin-bottom: 20px;
     margin-top: 10px;
-    position: static;
+    margin-left: 30px;
     font-family: 'Radio Canada', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
     line-height: 62px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 0.05em;
     color: #252525;
     }
@@ -229,7 +228,6 @@ a {
         vertical-align:middle;
         display: inline-block;
     }
-
 .secciones{
     
     display: flex;
@@ -256,8 +254,6 @@ a {
     text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
     }
 .card{
-background-color: white;
-color: #191a19;
 width: 85%;
 height: 610px;
 text-align: center;
@@ -269,22 +265,27 @@ border-radius: 20px;
 }
 .card:nth-child(3){
     background-color: #B6EAFA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .arkitex{
+    display: block;
     width: 600px;
     height: 350px;
-    margin-bottom: 30px;
+    margin: 30px auto 100px;
 }
 .arkitexm{
+    display: block;
     width: 280px;
     height: 400px;
-    margin-right: 50PX;
-;
+    margin: 0 auto 100px; 
 }
 .boton-a{
+    /*  */
     position: absolute;  
-    display: inline;
-    left: 330px;
+    display: block;
+    left: 25%;
       margin-top:410px;
         cursor: pointer;
         width: 150px;
@@ -299,10 +300,10 @@ border-radius: 20px;
         font-size: 17px;
         transition: 0.4s;
     }
-    .boton-b{
+.boton-b{
         position: absolute;  
         display: inline;
-        right: 20%;
+        right: 12%;
           margin-top:410px;
             cursor: pointer;
             width: 150px;
@@ -316,14 +317,60 @@ border-radius: 20px;
             text-align: center;
             font-size: 17px;
             transition: 0.4s;
-        }
-    
+ }
 .card:nth-child(4){
     background-color: #F3DEBA;
 }
-.card:nth-child(5){
-    background-color: #DBDFAA;
+.boton-c{ 
+        margin: 10px auto;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        font-family: 'Radio Canada', sans-serif;
+        background: rgba(24, 24, 24, 0.8);
+        border-radius: 10px;
+        border: none;
+        color: #D9D9D9;
+        text-decoration: none;
+        text-align: center;
+        font-size: 17px;
+        transition: 0.4s;
 }
+.hoodies{
+   display: block;
+    width: 600px;
+    height: 350px;
+    margin: 50px auto;
+}
+.card:nth-child(5){
+    display: flex;
+    justify-content: space-between  ;
+    flex-direction: row;
+}
+/* Ultimos Cards */
+.card1{
+    background-color: #DBDFAA;
+    width: 44%;
+    height: 600px;
+    border-radius: 20px;
+}
+.card1:nth-child(2){
+    background: #ECC9EE;
+    width: 54%;
+}
+.card1 .boton-sitio{
+    background-color: green;
+    margin-top: ;
+    bottom: 10px;
+}
+.cine{
+    width: 250px;
+    height: 450px;
+    margin: -10px auto 0;
+    display: block;
+}
+
+
 
 
 
