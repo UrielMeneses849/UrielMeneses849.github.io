@@ -359,6 +359,8 @@ border-radius: 20px;
 .card1:nth-child(2){
     background: #ECC9EE;
     width: 54%;
+    height: 500px;
+    vertical-align: middle;
 }
 .card1 .boton-c{
     position: absolute;
@@ -375,8 +377,8 @@ border-radius: 20px;
     display: block;
 }
 .gif{
-    width: 80%;
-    margin: 0 auto;
+    width: 450px;
+    margin: -20px auto 10px;
 }
 
 

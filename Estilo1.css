@@ -106,11 +106,30 @@
     .habilidades2{
             display: none;
              }
+    .card1 .boton-c{
+                width: 100px;
+            }
+    .card1 .boton-c img{
+                display: none;
+            }
+    .card1 .boton-sitio{
+                width: 120px;
+            
+            }
+    .cine{
+                width: 180px;
+                height: 390px;
+                margin: 20px auto 50px;
+                
+            }       
+    .card1:nth-child(2){
+                height: 500px;
+                }
+    .gif{
+                width: 370px;
+              }
 }
-.card1:nth-child(2){
-    height: 500px;
-    }
-  
+
 @media screen and (max-width: 912px){
 
     .abrir-menu,
@@ -318,7 +337,8 @@ height: 500px;
 }
 .gif{
     vertical-align: middle;
-    width: 95%;
+    margin: 0 auto;
+    width: 350px;
 }
 }
 
