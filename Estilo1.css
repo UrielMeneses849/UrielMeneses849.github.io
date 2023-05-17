@@ -1,5 +1,5 @@
 
-  @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .nombre{
         position:absolute;
         width: 90%;
@@ -106,10 +106,12 @@
     .habilidades2{
             display: none;
              }
-
 }
+.card1:nth-child(2){
+    height: 500px;
+    }
   
-  @media screen and (max-width: 912px){
+@media screen and (max-width: 912px){
 
     .abrir-menu,
     .cerrar-menu {
@@ -137,14 +139,12 @@
         color: #f0f0f0;
         font-family: 'Radio Canada', sans-serif;
         font-size: 30px;     
-    }
-       
+    }    
 .logo1{
     width: 45px;
     height: 45px;
     margin-top: 20px;
 } 
-
 .presentacion{    
         
             height: 500px;
@@ -296,6 +296,29 @@ font-size: 25px;
 .hoodies{
     width: 500px;
     height: 300px;
+}
+.card1 .boton-c{
+    width: 100px;
+}
+.card1 .boton-c img{
+    display: none;
+}
+.card1 .boton-sitio{
+    width: 120px;
+
+}
+.cine{
+    width: 180px;
+    height: 390px;
+    margin: 20px auto 50px;
+    
+}
+.card1:nth-child(2){
+height: 500px;
+}
+.gif{
+    vertical-align: middle;
+    width: 95%;
 }
 }
 
@@ -462,32 +485,18 @@ font-size: 25px;
 #menu{
     display: none;
 }
-.boton-sitio{
-            box-sizing: border-box;
-            position: absolute;
-            cursor: pointer;
-            left: 20vw;
-            margin-right: 30%;
-            font-family: 'Radio Canada', sans-serif;
-            background: rgba(24, 24, 24, 0.8);
-            border-radius: 10px;
-            border: none;
-            color: #D9D9D9;
-            text-decoration: none;
-            margin-top: 80px;
-            font-size: 15px;
-            transition: 0.3s;
-            
+.boton-sitio{          
+            left: 10%;
+            margin: 80px auto 0 auto;
+            font-size: 16px;           
         }   
 .habilidades2{
             display: none;
 } 
-
 /* Inicio de las secciones de trabajos */
 .secciones{
     margin-top: -120px;
             }
-
  .titu{
     width: 80vw;
     height: 50px;
@@ -543,7 +552,7 @@ margin-top: 65px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .hoodies{
     width: 90%;
@@ -551,7 +560,7 @@ margin-top: 65px;
     margin-top: 150px;
 }
 .boton-c{
-margin-top: 50px;
+margin: 50px auto;
 }
 .card:nth-child(5){
     display: flex;
@@ -566,11 +575,28 @@ margin-top: 50px;
     border-radius: 20px;
     margin: 0 auto 20px;
 }
+.card1 .boton-sitio{
+    width: 120px;
+    margin: 0 auto;
+}
+.cine{
+    width: 170px;
+    height: 380px;
+    margin: -20px auto 70px;
+}
+.card1 .boton-c{
+    display: none;
+}
 .card1:nth-child(2){
     background: #ECC9EE;
     width: 100%;
     margin: 20px auto 0;
 }
+.gif{
+    width: 90%;
+    margin: -20px auto 1px;
+}
+
 }
 
 

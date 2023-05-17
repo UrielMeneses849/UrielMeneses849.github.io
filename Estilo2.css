@@ -321,8 +321,10 @@ border-radius: 20px;
 .card:nth-child(4){
     background-color: #F3DEBA;
 }
-.boton-c{ 
-        margin: 10px auto;
+
+.boton-c{  
+        margin: 0 auto;
+        left: 0;
         cursor: pointer;
         width: 150px;
         height: 50px;
@@ -358,16 +360,23 @@ border-radius: 20px;
     background: #ECC9EE;
     width: 54%;
 }
+.card1 .boton-c{
+    position: absolute;
+    margin: 8px 0 10px 20px;
+}
 .card1 .boton-sitio{
-    background-color: green;
-    margin-top: auto;
+    margin-top: 0;
     bottom: 10px;
 }
 .cine{
-    width: 250px;
+    width: 210px;
     height: 450px;
     margin: -10px auto 0;
     display: block;
+}
+.gif{
+    width: 80%;
+    margin: 0 auto;
 }
 
 
