@@ -126,10 +126,9 @@ body{
         transition: .5s ease-in-out all;
         font-weight: 500;
     }
-    
     #menu a:hover {
         background: #414345;
-        color: #191a19;
+        color: #f0f0f0;
         border-radius: 5px;
         font-size: 22px;
     }
