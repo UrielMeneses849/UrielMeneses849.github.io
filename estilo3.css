@@ -1,0 +1,20 @@
+.acerca{
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; centra en medio de arriba y abajo*/
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    
+}
+.titu2{
+    
+    width: 472px;
+    padding-top: 30px;
+    font-family: 'Radio Canada', sans-serif;
+    font-style: normal;
+    font-size: 79px;
+    color: #ECF2FF;
+    text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+}
