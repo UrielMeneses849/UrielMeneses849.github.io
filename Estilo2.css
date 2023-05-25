@@ -228,7 +228,6 @@ a {
         display: inline-block;
     }
 .secciones{
-    
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -237,6 +236,7 @@ a {
     margin: 0 auto;
     margin-top: 200px;
 }
+
 .titu{
     width: 432px;
     height: 83px;
