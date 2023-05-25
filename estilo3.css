@@ -87,6 +87,51 @@ margin: 60px 20px 20px 40px;
 .certf:hover{
     font-size: 25px;
 }
+.hab{
+display: flex;
+flex-flow: row wrap;
+width: 85%;
+height: 1250px;
+margin: 20px auto;
+background: rgba(221, 230, 237, 0.2);
+backdrop-filter: blur(45px);
+border-radius: 30px;
+}
+.conthab{
+    width: 47%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 31%;  
+    margin: 10px auto 0;
+    
+}
+.conthab h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 32px;
+    color: #fefefe;
+    margin: 40px 20px 0 0;
+    height: 32px;
+}
+.textoinf{
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    color: #fefefe;
+   margin: 0 20px 0;
+   height: fit-content;
+   line-height: 2em;
+}
+
+.conthab b{
+    color: #0ACF83;
+}
+.conthab b:nth-child(2){
+    color: #FFD95A;
+}
+.imagenc{
+  width: 52px;
+  height: 52px;  
+  margin: 30px;
+}
 @media screen and (max-width: 1441px){
 .rect{
 width: 500px;
