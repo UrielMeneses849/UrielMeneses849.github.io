@@ -168,7 +168,8 @@ font-size: 20px;
     .p{
         width: 90%;
         margin-left: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+
     }
     .contrec{
         display: flex;
@@ -200,10 +201,10 @@ font-size: 20px;
         }
     .p:nth-child(4){
         width: 90%;
-        margin: 0 auto 20px;
+        margin: 0 auto 50px;
     }
     .ins{
-        margin: 10px auto;
+        margin: 30px auto;
     }
 
 }
