@@ -65,14 +65,14 @@ justify-content: center;
 align-items: center;
 font-size: 30px;
 color: #ECF2FF;
-margin: 60px 20px 20px 40px;
+margin: 60px 20px 20px 80px;
 }
 .rect:nth-child(3){
-    margin-left: 25%;
+    margin-left: 23%;
     background: linear-gradient(90deg, rgba(52, 168, 83, 0.5) 0%, rgba(66, 133, 244, 0.5) 101.43%);
 }
 .rect:nth-child(5){
-    margin-left: 45%;
+    margin-left: 40%;
     background: linear-gradient(90deg, rgba(128, 0, 74, 0.35) 45.49%, rgba(255, 255, 255, 0.21) 100%);
 }
 .certf{
@@ -131,6 +131,9 @@ border-radius: 30px;
   width: 52px;
   height: 52px;  
   margin: 30px;
+}
+.ins{
+    width: 30%;
 }
 @media screen and (max-width: 1441px){
 .rect{
