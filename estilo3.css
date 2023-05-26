@@ -18,8 +18,8 @@
     justify-content: center;
 }
 .me{
-    width: 19%;
-    height: 400px;
+    width: 280px;
+    height: 380px;
     margin: 40px 80px 50px;
 }
 .p{
@@ -148,6 +148,27 @@ margin: 60px 20px 20px 40px;
     height: 350px;
     margin: 70px auto 0;
 }
+.textoinf{
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    color: #fefefe;
+   margin: 10px 20px 0;
+   height: fit-content;
+   line-height: 1.5em;
+}
+.conthab h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 25px;
+    color: #fefefe;
+    margin: 40px 20px 0 0;
+    height: 32px;
+    text-align:justify;
+}
+.me{
+    width: 230px;
+    height: 280px;
+    margin-top: 150px;
+}
 }
 @media screen and (max-width: 1024px){
 .me{
@@ -171,6 +192,22 @@ font-size: 20px;
 .ins{
     width: 260px;
     height: 260px;
+}
+.textoinf{
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    color: #fefefe;
+   margin: 10px 20px 0;
+   height: fit-content;
+   line-height: 2em;
+}
+.conthab h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 21px;
+    color: #fefefe;
+    margin: 40px 6px 0 0;
+    height: 32px;
+    text-align:justify;
 }
 }
 @media screen and (max-width: 912px){
@@ -200,6 +237,40 @@ font-size: 20px;
         width: 220px;
     height: 250px;
     margin: 80px 30px;
+    }
+    .hab{
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+        height: 90%;
+        margin: 20px auto;
+        background: rgba(221, 230, 237, 0.2);
+        backdrop-filter: blur(45px);
+        border-radius: 30px;
+        }
+        .conthab{
+            width: 90%;
+            display: flex;
+            flex-flow: row wrap;
+            height: 31%;  
+            margin: 10px auto 0;
+            text-align:justify;
+            
+        }
+    .conthab h1{
+        font-family: 'Syne', sans-serif;
+        font-size: 30px;
+        color: #fefefe;
+        margin: 40px 22px 0 0;
+        height: 32px;
+    }
+    .textoinf{
+        font-family: 'Syne', sans-serif;
+        font-size: 17px;
+        color: #fefefe;
+       margin: 0 20px 0;
+       height: fit-content;
+       line-height: 2em;
     }
 }
 @media screen and (max-width: 640px){
@@ -254,5 +325,29 @@ font-size: 20px;
     .ins{
         margin: 30px auto 0;
     }
-
+    .imagenc{
+        width: 48px;
+        height: 48px;  
+        margin: 40px auto 0;
+      }
+    .conthab h1{
+        font-size: 23px;
+        color: #fefefe;
+        margin: 10px 12px 40px;
+        height: 32px;
+        text-align:start;
+    }
+    .textoinf{
+        font-family: 'Syne', sans-serif;
+        font-size: 17px;
+        color: #fefefe;
+       margin: 0 20px 0;
+       height: fit-content;
+       line-height: 2em;
+       text-align: initial;
+    }
+    #titu3{
+        
+        margin-top: -10px;
+    }
 }
