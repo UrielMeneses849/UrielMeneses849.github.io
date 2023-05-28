@@ -49,6 +49,7 @@ const cerrar = document.querySelector("#cerrar");
 const trabajo = document.querySelector("#trabajo1");
 const acerca = document.querySelector("#acerca");
 const habilidades = document.querySelector("#habilidades");
+const contacto = document.querySelector("#contacto");
 
 abrir.addEventListener("click", () => {
     nav.classList.add("visible");
@@ -66,4 +67,6 @@ acerca.addEventListener("click", () => {
 habilidades.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
-
+contacto.addEventListener("click", () => {
+    nav.classList.remove("visible");
+})
