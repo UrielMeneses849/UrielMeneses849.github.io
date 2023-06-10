@@ -1,0 +1,11 @@
+@media screen and (max-width: 640px){
+    .tituloD{
+   
+    height: 10px;
+    text-align: center; 
+    line-height: 1px;
+    align-items: center;
+    font-size: 45px;   
+
+    }
+}
