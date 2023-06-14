@@ -366,6 +366,7 @@ height: 500px;
         cursor: pointer;
         transition: 0.5s;
         position: fixed;
+        
     }
 
     .abrir-menu {

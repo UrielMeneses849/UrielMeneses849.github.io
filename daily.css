@@ -43,8 +43,6 @@ body{
         width: 500px;
         margin: 0 auto;
     }
-    .volver{
-    }
     #menu1 a {
         flex: 1;
         height: 100%;
@@ -80,7 +78,6 @@ body{
     margin: 30px auto;
     display: flex;
     justify-content: end;
-  
 }
 mark{
     background-color: lightblue;
@@ -131,6 +128,70 @@ mark:nth-child(3){
 }
 .diseñomobile{
     height: 700px;
-  
-
 }
+.titu2{
+    width: 472px;
+    padding-top: 90px;
+    margin: 0 auto;
+    margin-left: 120px;
+    font-family: 'Radio Canada', sans-serif;
+    font-style: normal;
+    font-size: 79px;
+    color: #ECF2FF;
+    text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+}
+.acerca{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; centra en medio de arriba y abajo*/
+    /* align-items: center; */
+    width: 90%;
+    margin: 20px auto;
+    font-family: 'Syne', sans-serif;
+    font-size: 25px;
+    color: #fefefe;
+    justify-content: space-evenly;
+}
+.listafooter{
+    width: 35%;
+    display: flex;
+    margin-left: 25px;
+}
+.listafooter li{
+    margin: 60px;
+    color: #f0f0f0;
+    transition: 0.5s;
+}
+.listafooter li:hover{
+    margin: 60px;
+    color: #79E0EE;
+    font-size: 28px;
+}
+.listafooter li b{ 
+    margin: 20px;
+    vertical-align:super;
+  }
+
+.footer2{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+}
+.spotify{
+    width: 368px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    }
+    .textos{
+        width: 80%;
+        text-align: center;
+        line-height: 35px;
+        margin: 50px auto;
+    }
