@@ -122,7 +122,7 @@
                 margin: 20px auto 50px;
                 
             }       
-    .card1:nth-child(2){
+    .enlace-DD{
                 height: 500px;
                 }
     .gif{
@@ -332,7 +332,7 @@ font-size: 25px;
     margin: 20px auto 50px;
     
 }
-.card1:nth-child(2){
+.enlace-DD{
 height: 500px;
 }
 .gif{
@@ -609,8 +609,7 @@ margin: 50px auto;
 .card1 .boton-c{
     display: none;
 }
-.card1:nth-child(2){
-    background: #ECC9EE;
+.enlace-DD{
     width: 100%;
     margin: 20px auto 0;
 }

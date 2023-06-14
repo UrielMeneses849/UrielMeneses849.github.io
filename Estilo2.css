@@ -354,12 +354,7 @@ border-radius: 20px;
     height: 600px;
     border-radius: 20px;
 }
-.card1:nth-child(2){
-    background: #ECC9EE;
-    width: 54%;
-    height: 500px;
-    vertical-align: middle;
-}
+
 .card1 .boton-c{
     position: absolute;
     margin: 8px 0 10px 20px;
@@ -378,7 +373,13 @@ border-radius: 20px;
     width: 450px;
     margin: -20px auto 10px;
 }
-
+.enlace-DD{
+    background: #ECC9EE;
+    width: 54%;
+    height: 500px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
 
 
 
