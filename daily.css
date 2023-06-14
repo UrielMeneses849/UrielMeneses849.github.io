@@ -15,11 +15,19 @@ body{
     top: 100px;
     bottom: 8%;
     }
+    .descripcion{
+        font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    color: #fefefe;
+    margin: 30px 210px;
+    line-height: 40px;
+    
+    }
     .abrir-menu,
     .cerrar-menu, .nav {
         display: none;
     }
-    #menu {
+    #menu1 {
         background-color: transparent;
     backdrop-filter: blur(20px);
         height: 85px;
@@ -30,11 +38,14 @@ body{
         overflow: hidden;
         font-family: 'Radio Canada', sans-serif;
         font-size: 20px;
-        border-radius: 8px;
+        border-radius: 15px;
         z-index: 999;
+        width: 500px;
+        margin: 0 auto;
     }
-    
-    #menu a {
+    .volver{
+    }
+    #menu1 a {
         flex: 1;
         height: 100%;
         text-transform: uppercase;
@@ -47,29 +58,21 @@ body{
         font-weight: 500;
         text-decoration: none;
     }
-    #menu a:hover {
+    #menu1 a:hover {
         background: #414345;
         color: #f0f0f0;
         border-radius: 5px;
         font-size: 22px;
     }
     
-    #menu .indicador {
-        width: 0px;
-        height: 7px;
-        background: #ECF2FF;
-        position: absolute;
-        bottom: 0;
-        transition: .3s ease-out all;
-        /* transform: translate(-500px); */
-    }
 .tituloD{
     font-size: 95px;
     color: #ECF2FF;
     text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
     font-family: 'Radio Canada', sans-serif;
     text-align: center;
-    margin: 100px auto;
+    margin: 70px auto;
+    
 }
 .contenedorD{
     width: 100%;
@@ -79,15 +82,24 @@ body{
     justify-content: end;
   
 }
+mark{
+    background-color: lightblue;
+}
+mark:nth-child(2){
+    background-color: lightgreen;
+}
+mark:nth-child(3){
+    background-color: lightseagreen;
+}
 .ultimos{
-    width: 14%;
+    width: 10%;
     margin: 0 50px;
 }
 .fila{
-    width: 7%;
+    width: 5%;
 }
 .columna{
-    width: 7%;
+    width: 5%;
     margin-right: 140px;
    
 }
