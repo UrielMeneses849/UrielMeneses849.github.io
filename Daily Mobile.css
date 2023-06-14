@@ -13,12 +13,16 @@
     }
 }
 @media screen and (max-width: 834px){
+    .logo1{
+        display: none;
+       }
     .tituloD{
         text-align: center; 
         line-height: 1px;
         align-items: center;
         font-size: 70px;   
         width: 100%;
+        
         }
         .descripcion{
             margin: 0 auto;
@@ -51,6 +55,7 @@
             
         }
 }
+
 @media screen and (max-width: 640px){
     .tituloD{
     text-align: center; 
@@ -58,19 +63,18 @@
     align-items: center;
     font-size: 45px;   
     width: 100%;
-    
+    margin-top: 60px;
     }
    #menu1{
     width: 50%;
     height: 80PX;
-    
+    margin-top: -90px;
    }
    .fondo{
     position: absolute;
 left: 28%;
 top: 100px;
 bottom: 8%;
-
 }
 .descripcion{
     margin: 0 auto;
@@ -87,14 +91,13 @@ bottom: 8%;
         display: flex;
         flex-wrap: wrap;
         margin-top: 50px;
-        background-color: wheat;
         
     }
     .diseño p{
         height: 120px;
         display: block;
         width: 100%;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .contenedordiseño{
         display: flex;
@@ -105,7 +108,7 @@ bottom: 8%;
 
     .diseñopc{
         width: 100%;
-        height: 280px;
+        height: 250px;
         align-items: center;
     }
     .diseñomobile{
@@ -115,60 +118,4 @@ bottom: 8%;
    .ICON{
     width:200px;
    }
-
-.listafooter{
-    width: 100%;
-    display: flex;
-    margin: 0 auto;
-    
-}
-.listafooter li{
-    margin: 50px auto;
-    color: #f0f0f0;
-    transition: 0.5s;
-    width: 100%;
-}
-.listafooter li:hover{
-    margin: 50px auto;
-    color: #f0f0f0;
-    transition: 0.5s;
-    width: 100%;
-}
-
-.listafooter li b{ 
-    margin: 20px 10px;
-    font-size: 20px;
-  }
-.listafooter img{
-    width: 30px;
-    height: 30px;
-}
-.footer2{
-    width: 95%;
-    height: 500px;
-    display: flex;
-    flex-flow: column;
-}
-.spotify{
-width: 90%;
-height: 75px;
-margin: 10px auto;
-}
-.spotify b{
-    margin: 0 30px;
-    font-size: 20px;
-}
-.spotify img{
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-    
-}
-.textos{
-    width: 80%;
-    text-align: center;
-    line-height: 35px;
-    margin: 30px auto;
-    font-size: 22px;
-}
 }
