@@ -1,0 +1,523 @@
+.acerca{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; centra en medio de arriba y abajo*/
+    /* align-items: center; */
+    width: 90%;
+    margin: 0 auto;
+}
+.titu2{
+    width: 472px;
+    padding-top: 90px;
+    margin: 0 auto;
+    font-family: 'Radio Canada', sans-serif;
+    font-style: normal;
+    font-size: 79px;
+    color: #ECF2FF;
+    text-shadow: 2px 4px 4px rgba(5, 13, 29, 0.5);
+    justify-content: center;
+}
+.me{
+    width: 280px;
+    height: 380px;
+    margin: 40px 80px 50px;
+}
+.p{
+    font-size: 30px;
+    width: 60%;
+    height: 320px;
+    padding-top: 80px;
+    font-family: 'Syne', sans-serif;
+    line-height: 50px;
+    color: #ECF2FF;
+    margin-left: 20px;
+   
+}
+.p b{
+    color: #98EECC;
+}
+.p b:nth-child(2){
+    color: #FFD95A;
+}
+.p b:nth-child(3){
+    color: #0ACF83;
+}
+.p:nth-child(4){
+    margin: 0 50px 0;
+}
+.contrec{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+    width: 100%;
+    height: 600px;
+}
+.rect{
+display: flex;
+width: 700px;
+height: 120px;
+background: linear-gradient(90.12deg, rgba(237, 28, 36, 0.5) 0.11%, rgba(237, 28, 36, 0) 99.9%);
+backdrop-filter: blur(25px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 150px;
+font-family: 'Syne', sans-serif;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+color: #ECF2FF;
+margin: 60px 20px 20px 80px;
+}
+.rect:nth-child(3){
+    margin-left: 23%;
+    background: linear-gradient(90deg, rgba(52, 168, 83, 0.5) 0%, rgba(66, 133, 244, 0.5) 101.43%);
+}
+.rect:nth-child(5){
+    margin-left: 40%;
+    background: linear-gradient(90deg, rgba(128, 0, 74, 0.35) 45.49%, rgba(255, 255, 255, 0.21) 100%);
+}
+.certf{
+    text-decoration: none;
+    color: #ECF2FF;
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    margin-top: 110px;
+    height: 20px;
+    transition: 0.5s;
+}
+.certf:hover{
+    font-size: 25px;
+}
+.hab{
+display: flex;
+flex-flow: row wrap;
+width: 85%;
+height: 1250px;
+margin: 20px auto;
+background: rgba(221, 230, 237, 0.2);
+backdrop-filter: blur(45px);
+border-radius: 30px;
+}
+.conthab{
+    width: 47%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 31%;  
+    margin: 10px auto 0;
+    
+}
+.conthab h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 32px;
+    color: #fefefe;
+    margin: 40px 20px 0 0;
+    height: 32px;
+}
+.textoinf{
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    color: #fefefe;
+   margin: 0 20px 0;
+   height: fit-content;
+   line-height: 2em;
+}
+
+.conthab b{
+    color: #0ACF83;
+}
+.conthab b:nth-child(2){
+    color: #FFD95A;
+}
+.imagenc{
+  width: 52px;
+  height: 52px;  
+  margin: 30px;
+}
+.ins{
+    width: 30%;
+}
+#titu4{
+    text-align: center;
+    justify-content:center;
+    align-items: baseline;
+    margin-left: 10%;
+}
+#contacto{
+    font-family: 'Syne', sans-serif;
+    font-size: 25px;
+    color: #fefefe;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.listafooter{
+    width: 35%;
+    display: flex;
+    margin-left: 25px;
+}
+.listafooter li{
+    margin: 60px;
+    color: #f0f0f0;
+    transition: 0.5s;
+}
+.listafooter li:hover{
+    margin: 60px;
+    color: #79E0EE;
+    font-size: 28px;
+}
+.listafooter li b{ 
+    margin: 20px;
+    vertical-align:super;
+  }
+.footer2{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+}
+.spotify{
+width: 368px;
+height: 75px;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(25px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 120px;
+display: flex;
+align-items: center;
+margin: 50px auto;
+}
+.spotify b{
+    margin: 0 30px;
+    font-size: 22px;
+}
+.spotify img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    
+}
+.textos{
+    width: 80%;
+    text-align: center;
+    line-height: 35px;
+    margin: 50px auto;
+}
+
+@media screen and (max-width: 1441px){
+.rect{
+width: 500px;
+height: 110px;
+font-size: 28px;
+color: #ECF2FF;
+margin: 60px 20px 20px 40px;
+}
+.ins{
+    width: 350px;
+    height: 350px;
+    margin: 70px auto 0;
+}
+.textoinf{
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    color: #fefefe;
+   margin: 10px 20px 0;
+   height: fit-content;
+   line-height: 1.5em;
+}
+.conthab h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 25px;
+    color: #fefefe;
+    margin: 40px 20px 0 0;
+    height: 32px;
+    text-align:justify;
+}
+.me{
+    width: 230px;
+    height: 280px;
+    margin-top: 150px;
+}
+.listafooter li{
+    margin: 60px;
+    color: #f0f0f0;
+    transition: 0.5s;
+    width: 90%;
+}
+.listafooter li b{ 
+    margin: 20px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1024px){
+.me{
+    width: 220px;
+    height: 250px;
+    margin: 40px 30px;
+}
+.p{
+    font-size: 20px;
+    height: 320px;
+    padding-top: 40px;
+    line-height: 40px;
+}
+.rect{
+    display: flex;
+width: 400px;
+height: 100px;
+font-size: 20px;
+
+}
+.ins{
+    width: 260px;
+    height: 260px;
+}
+.textoinf{
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    color: #fefefe;
+   margin: 10px 20px 0;
+   height: fit-content;
+   line-height: 2em;
+}
+.conthab h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 21px;
+    color: #fefefe;
+    margin: 40px 6px 0 0;
+    height: 32px;
+    text-align:justify;
+}
+.spotify{
+    width: 368px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    }
+.textos{
+    width: 80%;
+    text-align: center;
+    line-height: 35px;
+    margin: 30px auto;
+    margin-right: 20px;
+
+}
+}
+@media screen and (max-width: 912px){
+    .rect{
+        display: flex;
+        width: 400px;
+        height: 100px;
+        font-size: 20px;
+        margin: 60px 20px 5px 40px;
+        }
+        .p{
+            width: 55%;
+            margin-left: 20px;
+        }
+    .rect:nth-child(3){
+            margin-left: 15%;
+        }
+    .rect:nth-child(5){
+            margin-left: 25%;
+        }
+    .ins{
+            width: 200px;
+            height: 200px;
+            padding-top: 70px;
+        }
+    .me{
+        width: 220px;
+    height: 250px;
+    margin: 80px 30px;
+    }
+    .hab{
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+        height: 90%;
+        margin: 20px auto;
+        background: rgba(221, 230, 237, 0.2);
+        backdrop-filter: blur(45px);
+        border-radius: 30px;
+        }
+        .conthab{
+            width: 90%;
+            display: flex;
+            flex-flow: row wrap;
+            height: 31%;  
+            margin: 10px auto 0;
+            text-align:justify;
+            
+        }
+    .conthab h1{
+        font-family: 'Syne', sans-serif;
+        font-size: 30px;
+        color: #fefefe;
+        margin: 40px 22px 0 0;
+        height: 32px;
+    }
+    .textoinf{
+        font-family: 'Syne', sans-serif;
+        font-size: 17px;
+        color: #fefefe;
+       margin: 0 20px 0;
+       height: fit-content;
+       line-height: 2em;
+    }
+    #contacto{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content:space-between;
+    }
+    .footer2{
+        margin: 0 auto;
+    }
+    .spotify{
+        height: 70px;
+        
+        }
+    .textos{
+        margin: 20px auto; 
+    }
+}
+@media screen and (max-width: 640px){
+    .titu2{
+        width: 80%;
+        padding-top: 60px;
+        margin-top: 290px;
+        font-size: 45px;  
+        text-align: center;
+    }
+    .me{
+   display: none;
+    }
+    .p{
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+
+    }
+    .contrec{
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 150px;
+        width: 100%;
+        height: 600px;
+    }
+    .rect{
+        display: flex;
+        width: 400px;
+        height: 60px;
+        font-size: 15px;
+        margin: 90px auto 40px;
+        }
+    .rect:nth-child(3){
+        margin: 60px auto 40px;
+        }
+    .rect:nth-child(5){
+        margin: 60px auto 40px;
+        }
+    .certf{
+            text-decoration: none;
+            color: #ECF2FF;
+            font-size: 22px;
+            margin: -30px auto 0;
+            height: 20px;
+            
+        }
+    .p:nth-child(4){
+        width: 90%;
+        margin: 0 auto 50px;
+    }
+    .ins{
+        margin: 30px auto 0;
+    }
+    .imagenc{
+        width: 48px;
+        height: 48px;  
+        margin: 40px auto 0;
+      }
+    .conthab h1{
+        font-size: 23px;
+        color: #fefefe;
+        margin: 10px 12px 40px;
+        height: 32px;
+        text-align:start;
+    }
+    .textoinf{
+        font-family: 'Syne', sans-serif;
+        font-size: 17px;
+        color: #fefefe;
+       margin: 0 20px 0;
+       height: fit-content;
+       line-height: 2em;
+       text-align: initial;
+    }
+    #titu3{
+        
+        margin-top: -10px;
+    }
+    /* Footer */
+    #titu4{
+        
+        margin-top: -10px;
+    }
+    .listafooter{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .listafooter li{
+        margin: 50px auto;
+        color: #f0f0f0;
+        transition: 0.5s;
+        width: 100%;
+    }
+    .listafooter li:hover{
+        margin: 50px auto;
+        color: #f0f0f0;
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .listafooter li b{ 
+        margin: 20px 10px;
+        font-size: 20px;
+      }
+    .listafooter img{
+        width: 30px;
+        height: 30px;
+    }
+    .footer2{
+        width: 95%;
+        height: 500px;
+        display: flex;
+        flex-flow: column;
+    }
+    .spotify{
+    width: 90%;
+    height: 75px;
+    margin: 10px auto;
+    }
+    .spotify b{
+        margin: 0 30px;
+        font-size: 20px;
+    }
+    .spotify img{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        
+    }
+    .textos{
+        width: 80%;
+        text-align: center;
+        line-height: 35px;
+        margin: 30px auto;
+        font-size: 22px;
+    }
+}

@@ -1,30 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- AOS -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Estilo2.css">
+    <link rel="stylesheet" href="Estilo1.css">
+    <link rel="stylesheet" href="estilo3.css">
+    <script src="scrollreveal.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="4.svg">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="reset.css">
     <title>Portfolio</title>
-  </head>
-  <body>
+</head>
+
+    <!-- Menu Movil -->
+    <header>
+        <img class="logo1" src="logo.svg" alt="logo1">
+        <button id="abrir" class="abrir-menu"><img src="menu-1.svg" alt="" width="25px" height="25px"></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><img src="close.svg" alt="" width="30px" height="30px"></i></button>
+            <ul class="nav-list">
+                <li><a href="#titu" id="trabajo1">Mi Trabajo</a></li>
+                <li><a href="#titu2" id="acerca">Acerca de mi</a></li>
+                <li><a href="#titu3" id="habilidades">Habilidades</a></li>
+                <li><a href="Daily.html">Daily Design</a></li>
+                <li><a href="#titu4" id="contacto1"">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
     
-  </style>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-<!-- AOS Animacion -->
+<body id="body">
+    <!-- Seccion de presentacion, nombre y skills -->
+    <div class="presentacion" id="hero" >
+        <img src="Ala1.svg" alt="" class="Ala1" id="ala1">
+        <img src="Ala2.svg" alt="" class="Ala2" id="ala2">
+        <img src="fondo.svg" alt="" class="fondo">
+        <p class="nombre" id="present2" data-aos="zoom-in">
+            Hola, soy Uriel <br>
+            Web Developer
+        </p>
+        <ul class="skills" id="present">
+            <li>Diseñador de experiencia de Usuario e interfaces de Google</li> <br>
+            <li>Desarrollador Front-End de Oracle ONE</li>  <br>
+            <li>Ingeniero en computación del IPN </li>
+        </ul>
+        <ul class="habilidades" id="habilidades" data-aos="zoom-out">
+            <li><img src="Html.svg"></li>
+            <li><img src="CSS.svg"></li>
+            <li><img src="JS.svg" ></li>
+            <!-- <li><img src="github.svg"></li> -->
+            <li><img src="git.svg"></li>
+            <li><img src="Figma.svg"></li>
+            <li><img src="SQL.svg"></li>
+            <li><img src="php.svg"></li> 
+        </ul>
+    </div>
+    <!-- Menu PC -->
+    <nav id="menu">
+		<a href="#titu">Mi Trabajo</a>
+		<a href="#titu2">Acerca de mi</a>
+        <a href="#titu3">Habilidades</a>
+		<a href="Daily.html">Daily Design</a>
+		<a href="#titu4">Contacto</a>
+		<span class="indicador" id="indicador"></span>
+	</nav>
+    <!-- Seccion de mi trabajo, proyectos -->
+    <div class="secciones">
+        <h1 class="titu" id="titu">Mi Trabajo</h1>
+        <!-- Card 1 -->
+		
+			<div class="card" data-aos="zoom-in-up">
+              
+               <a href="https://urielmeneses849.github.io/Challenge-Oracle-ONE/" target="_blank"><button class="boton-sitio">Ver pagina </button></a>
+				<h1 class="titulosc" id="">•    Encriptador de palabras</h1>
+				<img src="encriptador-esc.png" alt="" class="enc-esc" data-aos="zoom-out">
+                <img src="encriptador-movil.png" alt="" class="enc-movil" data-aos="zoom-out">
+                <ul class="habilidades2" id="habilidades2">
+                <li><img src="Html1.svg" class=""></li>
+                <li><img src="CSS1.svg" ></li>
+                <li><img src="JS1.svg" alt=""></li>
+                <li><img src="Figma1.svg" alt=""></li>
+                </ul>
+                 
+	        </div>
+        <!-- Card 2 -->
+       
+        <div class="card" data-aos="zoom-in-up">
+            <button class="boton-sitio">Ver Investigación </button>
+            <h1 class="titulosc" id="">•    Arkitex - Networking </h1>
+            <img src="arkitex.png" alt="" class="arkitex" data-aos="zoom-out">
+            <a href="https://www.figma.com/proto/wS9zE35FkPFFPbFCymrCm5/Arkitex-Web-Desktop?page-id=0%3A1&node-id=5-10&viewport=55%2C320%2C0.06&scaling=scale-down&starting-point-node-id=5%3A10" target="_blank" id="down"> 
+            <button class="boton-a">Ver prototipo <img src="desktop.svg" class="desktop"></button></a>
+            <a href="https://www.figma.com/proto/iZ2J0xkjCKyuvqL0VdQtvB/Arkitex-%2F-App-dedicada?page-id=70%3A110&node-id=81-202&viewport=117%2C260%2C0.15&scaling=scale-down&starting-point-node-id=81%3A202" target="_blank" id="down"> 
+                <button class="boton-b">Ver prototipo <img src="phone.svg" class="desktop"></button></a>
+            <img src="arkitexm.png" alt="" class="arkitexm" data-aos="zoom-out">
+        </div>
+       
+        <!-- Card 3 -->
+        <div class="card" data-aos="zoom-in-up">
+            <button class="boton-sitio">Ver Investigación </button>
+            <h1 class="titulosc" id="">•    HoodiesCool - E-Comerce</h1>
+            <img src="hoodies.png" alt="" class="hoodies" data-aos="zoom-out">
+            <a href="https://xd.adobe.com/view/e9acc4ba-c43f-4f17-b6a0-bfb464907660-bcff/?fullscreen" target="_blank" id="down"> 
+            <button class="boton-c">Ver prototipo <img src="desktop.svg" class="desktop"></button></a>
+        </div>
+
+        <!-- Cine y Daily Design -->
+        <div class="card" data-aos="zoom-in-up">
+         
+            <div class="card1" data-aos="zoom-in-up">
+                <button class="boton-sitio">Ver Investigación </button>
+                <h1 class="titulosc" id="">•    CineFast - App</h1>
+                <img src="cine.png" alt="" class="cine" data-aos="zoom-out">
+                <a href="https://www.figma.com/proto/cDMAMVG72eNKxT0Uohbn4x/Prototipo-A.F-Cine?page-id=0%3A1&node-id=1-499&viewport=350%2C70%2C0.14&scaling=scale-down&starting-point-node-id=1%3A2" target="_blank" id="down"> 
+                <button class="boton-c">Ver prototipo <img src="phone.svg" class="desktop"></button></a>
+            </div>
+
+            <a href="Daily.html" class="enlace-DD"><div class="card2" data-aos="zoom-in-up">
+                <h1 class="titulosc" id="">•   100 Daily Design</h1>
+                <img src="daily.gif" alt="" class="gif">
+            </div></a>
+
+        </div>
+
+ </div>
+ <!-- Seccion de acerca de mi -->
+ <h1 class="titu2" id="titu2" data-aos="zoom-out-down">Acerca de mi</h1>
+ <div class="acerca">
+       
+    <img src="me.png" class="me" data-aos="zoom-out-up">
+    
+    <p class="p" data-aos="zoom-out-down">Soy un <b> desarrollador front-end</b> con una sólida formación en diseño web y una amplia
+        experiencia en la <b>creación de interfaces atractivas y funcionales.</b> Con un enfoque centrado en el usuario
+        y un ojo atento a los detalles, me esfuerzo por proporcionar experiencias <b>digitales excepcionales que 
+        combinen una interfaz intuitiva con un diseño visualmente atractivo.</b></p>
+        <div class="contrec">
+        <div class="rect" data-aos="fade-up">Desarrollador  Front-end - Oracle</div> <a href="certificado_programacion.pdf" class="certf" target="_blank" data-aos="fade-up">Ver certificado</a>
+        <div class="rect" data-aos="fade-up">Diseñador UX - Google</div> <a href="CertificadoUX.pdf" class="certf" target="_blank" data-aos="fade-up">Ver certificado</a>
+        <div class="rect" data-aos="fade-up">Ingeniero en computación - I.P.N</div> <a href="C .V.pdf" class="certf" target="_blank" data-aos="fade-up">Ver C.V</a>
+    </div>
+    <p class="p" data-aos="zoom-out-down">Mi objetivo es seguir creciendo profesionalmente y mantenerme actualizado en las últimas tecnologías y tendencias en el desarrollo front-end. 
+    <b>Estoy emocionado de colaborar en proyectos desafiantes </b>que me permitan desarrollar soluciones innovadoras y llevar experiencias digitales al siguiente nivel.</p>
+        <img src="ins.png" class="ins" data-aos="zoom-out-up">
+</div>
+<!-- Seccion de habilidades -->
+<h1 class="titu2" id="titu3" data-aos="zoom-out">Habilidades</h1>
+<div class="acerca">
+    <div class="hab" data-aos="zoom-out">
+        <div class="conthab" data-aos="zoom-in"><img src="idea.svg" class="imagenc"><h1> Empatizar, definir e idear </h1> 
+        <div class="textoinf">Abordar una problematica o necesidad para realizar
+            un producto digital <b>empatizando</b> con los potenciales usuarios
+            realizando entrevistas, mapas de empatia, “personas” 
+            audiencias competitivas ademas de idear muchas y soluciones con metodos
+            como <b>Crazy eights y How might we </b></div>
+        </div>
+        <div class="conthab" data-aos="zoom-in"><img src="wireframe.svg" class="imagenc"> <h1>Wireframes y Prototipos</h1>
+            <div class="textoinf">Realización de wireframes en papel escalando a <b>prototipos de baja fidelidad </b>
+                formando ideas de <b>componentes UI, arquitectura de la informacion, pasando por
+                principios de Gestalt, patrones de diseño y  pruebas de usabilidad </b> para
+                formar prototipos de alta fidelidad interactivos en Figma / Adobe XD</div>
+        </div>
+        <div class="conthab" data-aos="zoom-in"><img src="invest.svg" class="imagenc"> <h1>Investigaciones U.X</h1>
+            <div class="textoinf">Realizar varias investigaciones beneficiosas para UX 
+                <ul><br>
+                <li type="disc"> Auditoria competitiva</li>
+                <li type="disc"> Pruebas de usabilidad</li>
+                <li type="disc"> Planificacion de estudio de investigación</li>
+                <li type="disc"> KPIs (Indicadores de clave de rendimiento)</li>
+                <li type="disc"> Diagramas de afinidad </li>
+                </ul></div>
+        </div>
+        <div class="conthab" data-aos="zoom-in"><img src="web.svg" class="imagenc"> <h1>Diseño y desarrollo Web</h1>
+            <div class="textoinf">Me especializo en la fase de <b>diseño y desarrollo de páginas web</b>, donde transformo
+                ideas y conceptos en <b>experiencias digitales atrativas y funcionales</b>,
+                Una vez que el diseño está aprobado, paso a la fase de desarrollo. Aquí, utilizo mis 
+                habilidades en tecnologías web como HTML, CSS y JavaScript para traducir el
+                 diseño en código. </div>
+        </div>
+        <div class="conthab" data-aos="zoom-in"><img src="db.svg" class="imagenc"> <h1>Uso de Base de datos</h1>
+            <div class="textoinf">Poseo un sólido conocimiento y amplia experiencia en el diseño
+                desarrollo y manejo de bases de datos, lo cual me permite crear 
+                <b>soluciones eficientes y escalables </b>para el almacenamiento y gestión
+                 de información. Mi experiencia abarca tanto bases de datos relacionales 
+                como no relacionales</div>
+        </div>
+        <!-- Agregar texto cuando este listo, se ajusta solo -->
+        <div class="conthab" data-aos="zoom-in"><img src="react2.svg" class="imagenc"> <h1> Desarrollo en React</h1>
+            <div class="textoinf"></div>
+        </div>
+    </div>
+</div>
+
+<h1 class="titu2" id="titu4" data-aos="zoom-out">Contacto</h1>
+<div class="acerca" id="contacto">
+    <div class="listafooter">
+    <ul>
+       <a href="https://www.linkedin.com/in/urielmen/" target="_blank"><li class="imgcont" data-aos="zoom-in"><img src="linkedin.svg" alt=""><b>UrielMen </b></li></a>
+        <li class="imgcont" data-aos="zoom-in"><img src="gmail.svg" alt="" ><b>urielmeneses849@gmail.com </b></li>
+        <a href="https://github.com/UrielMeneses849" target="_blank"><li class="imgcont" data-aos="zoom-in"><img src="Githubfooter.svg" alt=""><b>urielmeneses849.github.io</b></li></a> 
+        <a href="https://www.behance.net/urielmeneses" target="_blank"><li class="imgcont" data-aos="zoom-in"><img src="behance.svg" alt=""><b>urielmeneses </b></li> </a>
+    </ul>
+</div>
+<div class="footer2">
+    
+    <div class="spotify" data-aos="fade-up"><img src="spotify.svg" alt="" data-aos="zoom-out"><b> Duki - hARAKiRi </b></div>
+    <div class="textos" data-aos="fade-down">¡Impulsandome el éxito! 
+
+        ¡Contáctame para llevar tus experiencias digitales
+        al siguiente nivel!"</div>
+        <div class="textos" data-aos="fade-down">© 2023 Uriel Meneses
+        </div>
+    </div> 
+</div>
+      
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
-    </script>
-  </body>
+        AOS.init({
+            duration: 1100,
+            once: false,
+        });
+      </script>
+    <script src="estilo.js"></script>
+    <script src="app.js"></script>
+    
+</body>
 </html>
