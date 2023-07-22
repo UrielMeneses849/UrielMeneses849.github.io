@@ -1,7 +1,0 @@
-
-IDEAS PARA EL PORTAFOLIO PROFESIONAL
-Destaca tus habilidades técnicas: Incluye ejemplos de tus habilidades en diseño de interfaz de usuario, diseño de experiencia de usuario, habilidades de prototipado y cualquier otra habilidad técnica relevante que tengas.
-
-Ocupar hover en titulos y bordes en portafolio
-ocupar propiedad active 
-
